@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18540BF71DA4E21F00EAD6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18540BF61DA4E21F00EAD6BE /* Assets.xcassets */; };
 		18DEBE311D9808B000E93D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE301D9808B000E93D56 /* AppDelegate.swift */; };
 		18DEBE331D9808B000E93D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE321D9808B000E93D56 /* ViewController.swift */; };
 		18DEBE361D9808B000E93D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBE341D9808B000E93D56 /* Main.storyboard */; };
-		18DEBE381D9808B100E93D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBE371D9808B100E93D56 /* Assets.xcassets */; };
 		18DEBE3B1D9808B100E93D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBE391D9808B100E93D56 /* LaunchScreen.storyboard */; };
 		18DEBE461D9808B100E93D56 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE451D9808B100E93D56 /* DouYuTVTests.swift */; };
 		18DEBE511D9808B100E93D56 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE501D9808B100E93D56 /* DouYuTVUITests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18540BF61DA4E21F00EAD6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DEBE2D1D9808B000E93D56 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DEBE301D9808B000E93D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DEBE321D9808B000E93D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18DEBE351D9808B000E93D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18DEBE371D9808B100E93D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DEBE3A1D9808B100E93D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DEBE3C1D9808B100E93D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DEBE411D9808B100E93D56 /* DouYuTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 				18DEBE301D9808B000E93D56 /* AppDelegate.swift */,
 				18DEBE321D9808B000E93D56 /* ViewController.swift */,
 				18DEBE341D9808B000E93D56 /* Main.storyboard */,
-				18DEBE371D9808B100E93D56 /* Assets.xcassets */,
+				18540BF61DA4E21F00EAD6BE /* Assets.xcassets */,
 				18DEBE391D9808B100E93D56 /* LaunchScreen.storyboard */,
 				18DEBE3C1D9808B100E93D56 /* Info.plist */,
 			);
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DEBE3B1D9808B100E93D56 /* LaunchScreen.storyboard in Resources */,
-				18DEBE381D9808B100E93D56 /* Assets.xcassets in Resources */,
+				18540BF71DA4E21F00EAD6BE /* Assets.xcassets in Resources */,
 				18DEBE361D9808B000E93D56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +491,7 @@
 				18DEBE571D9808B100E93D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DEBE581D9808B100E93D56 /* Build configuration list for PBXNativeTarget "DouYuTVTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				18DEBE5A1D9808B100E93D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DEBE5B1D9808B100E93D56 /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				18DEBE5D1D9808B100E93D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
