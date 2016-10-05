@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		18540BF71DA4E21F00EAD6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18540BF61DA4E21F00EAD6BE /* Assets.xcassets */; };
 		18DEBE311D9808B000E93D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE301D9808B000E93D56 /* AppDelegate.swift */; };
-		18DEBE331D9808B000E93D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE321D9808B000E93D56 /* ViewController.swift */; };
 		18DEBE361D9808B000E93D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBE341D9808B000E93D56 /* Main.storyboard */; };
 		18DEBE3B1D9808B100E93D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBE391D9808B100E93D56 /* LaunchScreen.storyboard */; };
 		18DEBE461D9808B100E93D56 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE451D9808B100E93D56 /* DouYuTVTests.swift */; };
@@ -37,7 +36,6 @@
 		18540BF61DA4E21F00EAD6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DEBE2D1D9808B000E93D56 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DEBE301D9808B000E93D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18DEBE321D9808B000E93D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18DEBE351D9808B000E93D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DEBE3A1D9808B100E93D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DEBE3C1D9808B100E93D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +72,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18540BF81DA4E7D700EAD6BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18540BFC1DA4E7D700EAD6BE /* Main */,
+				18540BFA1DA4E7D700EAD6BE /* Home */,
+				18540BFB1DA4E7D700EAD6BE /* Live */,
+				18540BF91DA4E7D700EAD6BE /* Follow */,
+				18540BFD1DA4E7D700EAD6BE /* Profile */,
+				18540BFE1DA4E7D700EAD6BE /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18540BF91DA4E7D700EAD6BE /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		18540BFA1DA4E7D700EAD6BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18540BFB1DA4E7D700EAD6BE /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		18540BFC1DA4E7D700EAD6BE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18540BFD1DA4E7D700EAD6BE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18540BFE1DA4E7D700EAD6BE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		18DEBE241D9808B000E93D56 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +150,8 @@
 		18DEBE2F1D9808B000E93D56 /* DouYuTV */ = {
 			isa = PBXGroup;
 			children = (
+				18540BF81DA4E7D700EAD6BE /* Classes */,
 				18DEBE301D9808B000E93D56 /* AppDelegate.swift */,
-				18DEBE321D9808B000E93D56 /* ViewController.swift */,
 				18DEBE341D9808B000E93D56 /* Main.storyboard */,
 				18540BF61DA4E21F00EAD6BE /* Assets.xcassets */,
 				18DEBE391D9808B100E93D56 /* LaunchScreen.storyboard */,
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DEBE331D9808B000E93D56 /* ViewController.swift in Sources */,
 				18DEBE311D9808B000E93D56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
