@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="7uc-qp-FcS">
             <objects>
-                <viewController id="Vqm-76-5hj" sceneMemberID="viewController">
+                <viewController id="Vqm-76-5hj" customClass="HomeViewController" customModule="DouYuTV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2sP-Zs-7Kp"/>
                         <viewControllerLayoutGuide type="bottom" id="1AB-ls-egW"/>
@@ -43,7 +43,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="86l-2m-nJP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-264" y="-475"/>
+            <point key="canvasLocation" x="-205" y="-475"/>
         </scene>
     </scenes>
     <resources>
