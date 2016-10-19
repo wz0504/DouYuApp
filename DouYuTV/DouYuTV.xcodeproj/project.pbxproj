@@ -20,6 +20,8 @@
 		18DEBE511D9808B100E93D56 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBE501D9808B100E93D56 /* DouYuTVUITests.swift */; };
 		18DF272E1DAFC99F0015BDA0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF272D1DAFC99F0015BDA0 /* HomeViewController.swift */; };
 		18DF27311DAFD09E0015BDA0 /* UIBarButton-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF27301DAFD09E0015BDA0 /* UIBarButton-extension.swift */; };
+		18F8611B1DB7AED600F45C7B /* TitlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8611A1DB7AED600F45C7B /* TitlePageView.swift */; };
+		18F8611D1DB7B12100F45C7B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8611C1DB7B12100F45C7B /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		18DEBE521D9808B100E93D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DF272D1DAFC99F0015BDA0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18DF27301DAFD09E0015BDA0 /* UIBarButton-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton-extension.swift"; sourceTree = "<group>"; };
+		18F8611A1DB7AED600F45C7B /* TitlePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePageView.swift; sourceTree = "<group>"; };
+		18F8611C1DB7B12100F45C7B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				18DF272F1DAFD0550015BDA0 /* Extension */,
+				18F8611C1DB7B12100F45C7B /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 		18DF27291DAFC8FC0015BDA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18F8611A1DB7AED600F45C7B /* TitlePageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,6 +403,8 @@
 				18540C0D1DA4F72100EAD6BE /* MainViewController.swift in Sources */,
 				18DF272E1DAFC99F0015BDA0 /* HomeViewController.swift in Sources */,
 				18DF27311DAFD09E0015BDA0 /* UIBarButton-extension.swift in Sources */,
+				18F8611D1DB7B12100F45C7B /* Common.swift in Sources */,
+				18F8611B1DB7AED600F45C7B /* TitlePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
